@@ -16,9 +16,7 @@ public class RVButtonsViewHolder extends RecyclerView.ViewHolder {
     }
 
     private void initListener() {
-        button.setOnClickListener(v -> {
-            Toast.makeText(itemView.getContext(), button.getText().toString(), Toast.LENGTH_SHORT).show();
-        });
+        button.setOnClickListener(v -> Toast.makeText(itemView.getContext(), button.getText().toString(), Toast.LENGTH_SHORT).show());
     }
 
     private void initView(View itemView) {

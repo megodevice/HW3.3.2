@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-    private ArrayList<String> buttonTextArray = new ArrayList<>();
-    private Random random = new Random();
+    private final ArrayList<String> buttonTextArray = new ArrayList<>();
+    private final Random random = new Random();
     private RecyclerView rvButtons;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
